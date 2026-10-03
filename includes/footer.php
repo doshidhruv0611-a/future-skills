@@ -1,0 +1,1 @@
+</main><footer><div><b>Future Skills</b><br>Robotics & AI for schools</div><div><b>Program</b><br>Grades 1-12 · 10 months</div><div><b>Fee</b><br>Rs. 200 / student / month</div><div><b><?=e(c('footer_note'))?></b><br>© <?=date('Y')?> Future Skills</div></footer></body></html>
