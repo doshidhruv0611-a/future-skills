@@ -1,0 +1,2 @@
+<?php require 'includes/header.php';$s=['Component introduction','Real-world application','Circuit completion','DIY project','DIY project','AI integration','Revision','Evaluation'];?>
+<div class="wrap"><h1>Scope</h1><p><?=e(c('scope_intro'))?></p><h3>8 sessions every month</h3><div class="cards"><?php foreach($s as $i=>$n){?><div class="card"><b>Session <?=$i+1?></b><br><?=$n?></div><?php }?></div><p>10 months, from basic electronics to Arduino, IoT and AI.</p></div><?php require 'includes/footer.php';?>

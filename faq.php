@@ -1,0 +1,1 @@
+<?php require 'includes/header.php';?><div class="wrap"><h1>FAQ</h1><?php foreach([1,2,3] as $i){?><details><summary><?=e(c("q$i"))?></summary><p><?=e(c("a$i"))?></p></details><?php }?></div><?php require 'includes/footer.php';?>

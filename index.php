@@ -1,0 +1,2 @@
+<?php require 'includes/header.php';?><section class="hero"><h1><?=e(c('hero_title'))?></h1><p><?=e(c('hero_sub'))?></p><a class="btn" style="background:#fff;color:#1d4ed8" href="contact.php">Partner With Us</a></section>
+<div class="wrap"><div class="cards"><?php foreach(['f1','f2','f3'] as $k){[$t,$d]=explode('|',c($k).'|');?><div class="card"><h3><?=e($t)?></h3><p><?=e($d)?></p></div><?php }?></div></div><?php require 'includes/footer.php';?>
